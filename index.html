@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora React</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
-  <body style="margin:0; background:#181920;">
-    <div id="root"></div>
+  <body>
+    <div id="bg-app">
+      <header>
+        <h1>Calculadora React - Eduardo Matos Costa</h1>
+      </header>
+      <main class="main-content">
+        <div id="root"></div>
+        <aside class="calc-info">
+          <h2>Sobre o projeto</h2>
+          <p>
+            Esta calculadora foi desenvolvida em React, utilizando componentes funcionais, hooks de estado (<code>useState</code>) e manipulação de eventos. O layout e as funcionalidades foram inspirados na calculadora do Windows, incluindo operações básicas, porcentagem, inversão de sinal, CE, C e backspace.<br><br>
+            O projeto utiliza Vite para desenvolvimento rápido e moderno em React. O CSS foi customizado para um visual escuro, moderno e responsivo.<br><br>
+            Sinta-se à vontade para explorar e experimentar a calculadora React!
+          </p>
+        </aside>
+      </main>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
